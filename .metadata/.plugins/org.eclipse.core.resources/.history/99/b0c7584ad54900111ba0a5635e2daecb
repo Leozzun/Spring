@@ -1,0 +1,11 @@
+package sample06;
+
+public class EmpDTO {
+	private int empno;
+	private String ename;
+	private String job;
+	
+	public EmpDTO() {
+		System.out.println("EmpDTO 기본 생성자 호출됨!");
+	}
+}

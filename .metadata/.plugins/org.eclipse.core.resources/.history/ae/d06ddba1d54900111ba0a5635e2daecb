@@ -1,0 +1,26 @@
+package sample06;
+
+import org.springframework.beans.factory.annotation.Value;
+
+public class EmpDTO {
+	
+	@Value("50")
+	private int empno;
+	
+	@Value("희정")
+	private String ename;
+	
+	@Value("${job}")
+	private String job;
+	
+	public EmpDTO() {
+		System.out.println("EmpDTO 기본 생성자 호출됨!");
+	}
+
+	@Override
+	public String toString() {
+		return "EmpDTO [empno=" + empno + ", ename=" + ename + ", job=" + job + "]";
+	}
+	
+	
+}

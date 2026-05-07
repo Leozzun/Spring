@@ -9,6 +9,8 @@
 	<configs>
 		<config>src/main/java/sample04/springDI_Setter.xml</config>
 		<config>src/main/java/sample05/spring.xml</config>
+		<config>src/main/java/sample06/springDI_Autowired.xml</config>
+		<config>src/main/java/sample07/applicationContext.xml</config>
 	</configs>
 	<autoconfigs>
 		<config>src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml</config>

@@ -1,0 +1,11 @@
+package sample07;
+
+public class BoardController {
+	
+	private BoardService boardService;
+	
+	private BoardDTO boardDto;
+	
+	private BoardDTO boarDto2;
+
+}

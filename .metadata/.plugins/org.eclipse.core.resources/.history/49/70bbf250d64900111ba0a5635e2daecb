@@ -1,0 +1,11 @@
+package sample06;
+
+public class EmpController {
+	
+	private EmpDTO empDto;
+	private EmpService empService;
+	
+	public EmpController() {
+		System.out.println("EmpController 기본생성자 입니다.");
+	}
+}

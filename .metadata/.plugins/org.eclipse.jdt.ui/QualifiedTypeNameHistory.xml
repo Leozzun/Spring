@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="lombok.Getter"/>
-    <fullyQualifiedTypeName name="lombok.Setter"/>
     <fullyQualifiedTypeName name="kost.web.controller.Board"/>
+    <fullyQualifiedTypeName name="sample04.StudentService"/>
+    <fullyQualifiedTypeName name="sample04.StudentServiceImpl"/>
+    <fullyQualifiedTypeName name="sample04.StudentController"/>
+    <fullyQualifiedTypeName name="sample05.ProductBean"/>
+    <fullyQualifiedTypeName name="sample05.OrderMessage"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="javax.annotation.PostConstruct"/>
+    <fullyQualifiedTypeName name="sample06.EmpController"/>
+    <fullyQualifiedTypeName name="org.graalvm.compiler.core.common.spi.ConstantFieldProvider.ConstantFieldTool"/>
+    <fullyQualifiedTypeName name="java.lang.ModuleLayer.Controller"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+    <fullyQualifiedTypeName name="lombok.Setter"/>
+    <fullyQualifiedTypeName name="lombok.Getter"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.ToString"/>
+    <fullyQualifiedTypeName name="sample07.BoardDTO"/>
 </qualifiedTypeNameHistroy>

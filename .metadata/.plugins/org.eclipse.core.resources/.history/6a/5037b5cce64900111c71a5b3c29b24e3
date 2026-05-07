@@ -1,0 +1,12 @@
+package sample07;
+
+public class BoardDTO {
+	private int no;
+	private String subject;
+	private String content;
+	
+	public BoardDTO() {
+		System.out.println(BoardDTO 기본생성자);
+	}
+
+}

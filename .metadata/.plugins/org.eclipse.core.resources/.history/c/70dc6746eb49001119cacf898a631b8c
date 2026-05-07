@@ -1,0 +1,10 @@
+package sample07;
+
+public class BoardMyBatisDAOImpl implements BoardDAO {
+
+	@Override
+	public void select() {
+
+	}
+
+}

@@ -1,2 +1,5 @@
 //com.springsource.config.ui.prefs.activePageIndex\:/step01_SpringDI/src/main/java/sample02/springDI_Constructor.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/step01_SpringDI/src/main/java/sample04/springDI_Setter.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/step01_SpringDI/src/main/java/sample05/spring.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/step01_SpringDI/src/main/java/sample06/springDI_Autowired.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
 eclipse.preferences.version=1

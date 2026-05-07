@@ -1,0 +1,11 @@
+package sample07;
+
+public class BoardOracleDAOImpl implements BoardDAO {
+
+	@Override
+	public void select() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

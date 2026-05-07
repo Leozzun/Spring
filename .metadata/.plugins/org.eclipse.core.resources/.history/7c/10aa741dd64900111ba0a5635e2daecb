@@ -1,0 +1,7 @@
+package sample06;
+
+public class EmpService {
+	public EmpService() {
+		System.out.println("EmpService 기본생성자");
+	}
+}

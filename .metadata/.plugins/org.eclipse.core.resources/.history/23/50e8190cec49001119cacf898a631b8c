@@ -1,0 +1,14 @@
+package sample07;
+
+public class BoardServiceImpl implements BoardService {
+	
+	public BoardServiceImpl( ) {
+		System.out.println("BoardServiceImpl 생성자 호출");
+	}
+
+	@Override
+	public void select() {
+		
+	}
+
+}

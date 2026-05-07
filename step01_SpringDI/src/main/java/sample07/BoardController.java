@@ -1,0 +1,21 @@
+package sample07;
+
+public class BoardController {
+	
+	private BoardService boardService;
+	
+	private BoardDTO boardDto;
+	
+	private BoardDTO boarDto2;
+	
+	public BoardController() {
+		System.out.println("BoardController 생성자 호출");
+	}
+	
+	public void test() {
+		System.out.println("BoardController test call");
+		
+		boardService.select();
+	}
+
+}

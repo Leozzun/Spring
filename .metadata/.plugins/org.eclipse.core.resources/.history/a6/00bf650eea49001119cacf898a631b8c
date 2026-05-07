@@ -1,0 +1,9 @@
+package sample07;
+
+public class MainApp {
+
+	public static void main(String[] args) {
+		BoardDTO dto = new BoardDTO(0, null, null)
+		
+	}
+}

@@ -1,0 +1,33 @@
+package sample06;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class EmpController {
+	
+	@Autowired //byType을 기준으로 객체를 찾아서 주입해줘.
+	private EmpDTO empDto;
+	
+	@Autowired
+	private EmpService empService;
+	
+	public EmpController() {
+		System.out.println("EmpController 기본생성자 입니다.");
+		
+		System.out.println("empDto = " + empDto);
+		System.out.println("empService = " + empService);
+	}
+	
+//	주입은 객체가 생성된 후에 주입이 된다!
+	
+	public void aa() {
+		System.out.println("--aa 호출 ---");
+		System.out.println("empDto = " + empDto);
+		System.out.println("empService = " + empService);
+	}
+	
+	public void test() {
+		System.out.println("EmpController test call");
+		
+		empService.test(empDto);
+	}
+}

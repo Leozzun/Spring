@@ -1,0 +1,23 @@
+package sample06;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class EmpController {
+	
+	@Autowired
+	private EmpDTO empDto;
+	private EmpService empService;
+	
+	public EmpController() {
+		System.out.println("EmpController 기본생성자 입니다.");
+		
+		System.out.println("empDto = " + empDto);
+		System.out.println("empService = " + empService);
+	}
+	
+	public void test() {
+		System.out.println("EmpController test call");
+		
+		empService.test(empDto);
+	}
+}

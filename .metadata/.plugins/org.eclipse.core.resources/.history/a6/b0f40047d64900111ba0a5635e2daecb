@@ -1,0 +1,9 @@
+package sample06;
+
+public class EmpController {
+	
+	private EmpDTO empDto;
+	private EmpService empService;
+	
+	
+}

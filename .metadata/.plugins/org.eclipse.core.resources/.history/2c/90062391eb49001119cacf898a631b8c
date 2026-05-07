@@ -1,0 +1,11 @@
+package sample07;
+
+public class BoardOracleDAOImpl implements BoardDAO {
+
+	@Override
+	public void select() {
+		System.out.println("BoardOracleDAOImpl select 호출");
+
+	}
+
+}
