@@ -1,0 +1,12 @@
+package sample05;
+
+public class UserBean {
+	
+	private String id;
+	private String name;
+	private String addr;
+	private String phone;
+	
+	
+
+}

@@ -1,0 +1,30 @@
+package sample01;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class MainApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println("---기존 방식----");
+		
+		MessageBean bean = new MessageBeanEnImpl();
+		bean.sayHello("heejung");
+		
+		bean = new MessageBeanKoImpl();
+		bean.sayHello("희");
+		
+		System.out.println("Spring Container가 bean 관리하기 ----");
+		ApplicationContext application = 
+				new ClassPathXmlApplicationContext("sample01/applicationContext.xml");
+		
+		System.out.println("==========================");
+			
+		MessageBean bean = aplication.getBean()
+		
+		
+	}
+
+}

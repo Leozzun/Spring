@@ -1,0 +1,8 @@
+package sample02;
+
+public class MemberDAO {
+	
+	public MemberDAO() {
+		System.out.println("MemberDAO 기본생성자");
+	}
+}

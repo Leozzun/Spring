@@ -1,0 +1,21 @@
+package sample01;
+
+public class MainApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println("---기존 방식----");
+		
+		MessageBean bean = new MessageBeanEnImpl();
+		bean.sayHello("heejung");
+		
+		bean = new MessageBeanKoImpl();
+		bean.sayHello("희");
+		
+		System.out.println("Spring Container가 bean 관리하기 ----");
+		
+		
+	}
+
+}

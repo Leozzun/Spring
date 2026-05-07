@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean class="sample05.UserBean" id="userBean">
+        <property name="id" value="user01"/>
+        <property name="name" value="장희정"/>
+        <property name="addr" value="서울"/>
+        <property name="phone" value="222-3333"/>
+    </bean>
+    
+    <bean class="sample05.ProductBean" id="productBean">
+        <property name="pno" value="1"/>
+        <property name="pname" value="새우강"/>
+        <property name="price" value="4000"/>
+    </bean>
+
+</beans>

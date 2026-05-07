@@ -1,0 +1,22 @@
+package sample05;
+
+public class OrderMessageImpl implements OrderMessage {
+	
+	private int orderId;
+	private String message;
+	
+	public OrderMessageImpl() {
+		
+	}
+	
+	public int getOrderId() {
+		return orderId;
+		
+	}
+
+	@Override
+	public void getOrderMessage() {
+
+	}
+
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="test"/>
+<aop-project name="aaa"/>
+<aop-project name="step01_SpringDI"/>
+</aop-reference-model>

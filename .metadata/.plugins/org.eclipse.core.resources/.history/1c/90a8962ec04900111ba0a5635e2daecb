@@ -1,0 +1,9 @@
+package sample05;
+
+public class ProductBean {
+	
+	private int pno;
+	private int price;
+	private String pname;
+
+}

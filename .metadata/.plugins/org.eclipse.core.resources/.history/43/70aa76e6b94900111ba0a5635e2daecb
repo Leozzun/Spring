@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- 외부의 properties 파일의 위치를 설정 -->
+	<!-- <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<array>
+				<value>classpath:info.properties</value>
+				<value>classpath:db.properties</value>
+			</array>
+		</property>
+	</bean> -->
+	
+	<!-- context:xxx는 spring IoC 컨테이너와 관련된 설정을 간소화 해주는 역할을 한다.
+	애플리케이션의 빈들을 자동으로 스캔하고 빈으로 등록하는 작업을 손 쉽게해주는 역할을 한다. -->
+	 
+	<bean class="sample04.Student" id="st1">
+		<property name="no" value="${student.no}"/> <!-- setNo 호출됨 -->
+		<property name="addr" value="${student.addr}"/>
+		<property name="name" value="${driverName}"/>
+		<property name="phone" value="${student.phone}"/>
+	</bean>
+
+</beans>

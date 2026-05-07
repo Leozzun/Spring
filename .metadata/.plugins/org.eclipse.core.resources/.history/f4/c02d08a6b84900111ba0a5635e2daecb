@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- 외부의 properties 파일의 위치를 설정 -->
+	<bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<array>
+				<value>classpath:info.properties</value>
+			</array>
+		</property>
+	</bean>
+	
+	<bean class="sample04.Student" id="st1">
+		<property name="no" value="${student.no}"/> <!-- setNo 호출됨 -->
+		<property name="addr" value="${student.addr}"/>
+		<property name="name" value="${student.name}"/>
+		<property name="phone" value="${student.phone}"/>
+	</bean>
+
+</beans>

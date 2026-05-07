@@ -1,0 +1,14 @@
+package sample05;
+
+public class OrderMessageImpl implements OrderMessage {
+	
+	private int orderId;
+	private String message;
+
+	@Override
+	public void getOrderMessage() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

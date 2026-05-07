@@ -1,0 +1,21 @@
+package sample04;
+
+public class MainApp {
+
+	public static void main(String[] args) {
+		// 1. 기존방식
+		
+		Student student = new Student();
+		StudentService service = new StudentServiceImpl();
+		
+		StudentController controller = new StudentController();
+		
+		//주입
+		controller.setStudent(student);
+		controller.setStudentService(service);
+		
+		controller.insert();
+
+	}
+
+}

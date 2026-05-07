@@ -1,0 +1,20 @@
+package sample02;
+
+public class Member {
+	private String id;
+	private String pwd;
+	private int age;
+	private String addr;
+	
+	public Member() {
+		System.out.println("Member 기본생성자입니다.");
+	}
+	
+	public Member(String id) {
+		System.out.println("Member(String id) 생성자입니다.");
+	}
+	
+	public Member(String id, int age) {
+		System.out.println("Member(String id) 생성자입니다.");
+	}
+}

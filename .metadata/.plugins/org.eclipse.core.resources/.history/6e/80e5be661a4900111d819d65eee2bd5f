@@ -1,0 +1,11 @@
+package sample02;
+
+public class MemberService {
+	private MemberDAO memberDao;
+	private Member member;
+	
+	public  MemberService() {
+		System.out.println("MemberService 기본 생성자 호출됨");
+	}
+
+}
