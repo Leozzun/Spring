@@ -1,0 +1,12 @@
+package sample08;
+
+public class BookController {
+	
+	public BookController() {
+		System.out.println("BookController 생성자");
+	}
+	
+	public void invoker() {
+		
+	}
+}

@@ -1,0 +1,24 @@
+package sample08;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class BookDAOImpl implements BookDAO {
+	
+	@Autowired
+	@Qualifier("dbUtil")
+	private DbUtil dbUtil;
+	
+	public BookDAOImpl() {
+		System.out.println("BookDAOImpl 생성자");
+	}
+
+	@Override
+	public void save(EmailSender emilSender, MessageSender messageSender, BookDTO book1, BookDTO book2) {
+		
+	}
+
+}

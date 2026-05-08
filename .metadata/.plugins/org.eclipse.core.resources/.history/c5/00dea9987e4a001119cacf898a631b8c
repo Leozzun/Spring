@@ -1,0 +1,39 @@
+package sample08;
+
+import javax.annotation.PostConstruct;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Service;
+
+@Service("service")
+public class BookServiceImpl implements BookService {
+	
+	@Autowired
+	@Qualifier("bookDAOImpl")
+	private BookDAO bookDao;
+	
+	@Autowired
+	@Qualifier("emailSender")
+	private EmailSender emailSender;
+	
+	@Autowired
+	@Qualifier("messageSender")
+	private MessageSender messageSender;
+	
+	public BookServiceImpl() {
+		System.out.println("BookService 생성자");
+	}
+	
+	@PostConstruct
+	public void init() {
+		System.out.println("emilSender =  " + emailSender);
+		System.out.println("messageSender = " + messageSender);
+	}
+
+	@Override
+	public void save(BookDTO book1, BookDTO book2) {
+		bookDao.save(emailSender, messageSender, book1, book2);
+	}
+
+}

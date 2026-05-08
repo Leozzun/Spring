@@ -1,5 +1,9 @@
 package sample07;
 
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -10,11 +14,17 @@ import lombok.ToString;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-@ToString
-
+//@ToString
+@Component //생성 <bean class="BoardDTO" id="boardDTO"
+@Scope("prototype") //지연 초기화 / 객체의 주소 값을 다르게 해준다
 public class BoardDTO {
+	@Value("100")
 	private int no;
+	
+	@Value("수고")
 	private String subject;
+	
+	@Value("발 아파요")
 	private String content;
 	
 

@@ -1,0 +1,14 @@
+package sample07;
+
+public class BoardMyBatisDAOImpl implements BoardDAO {
+	
+	public BoardMyBatisDAOImpl() {
+		System.out.println("BoardMyBatisDAOImpl 생성자 호출");
+	}
+
+	@Override
+	public void select() {
+		System.out.println("BoardMyBatisDAOImpl select 메소드 호출");
+	}
+
+}

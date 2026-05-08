@@ -1,0 +1,19 @@
+package sample08;
+
+@Service
+public class BookServiceImpl implements BookService {
+	
+	private BookDAO bookDao;
+	private EmailSender emailSender;
+	private MessageSender messageSender;
+	
+	public BookServiceImpl() {
+		System.out.println("BookService 생성자");
+	}
+
+	@Override
+	public void save(BookDTO bookDTO, BookDTO bookDTO2) {
+
+	}
+
+}

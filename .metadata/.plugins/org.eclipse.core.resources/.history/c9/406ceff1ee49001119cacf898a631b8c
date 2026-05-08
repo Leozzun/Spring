@@ -1,0 +1,28 @@
+package sample07;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
+public class BoardServiceImpl implements BoardService {
+	
+	@Autowired
+	private BoardDAO boardMyBatisDAOImpl;
+	
+	@Autowired
+	private BoardDAO boardOracleDao;
+	
+	public BoardServiceImpl( ) {
+		System.out.println("BoardServiceImpl 생성자 호출");
+	}
+
+	@Override
+	public void select() {
+		System.out.println("BoardServiceImpl select call");
+		
+		boardMyBatisDAOImpl.select();
+		
+		boardOracleDao.select();
+	}
+
+}

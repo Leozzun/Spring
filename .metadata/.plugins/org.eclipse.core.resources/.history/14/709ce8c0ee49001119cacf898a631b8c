@@ -1,0 +1,21 @@
+package sample07;
+
+public class BoardServiceImpl implements BoardService {
+	
+	private BoardDAO boardMyBatisDAOImpl;
+	private BoardDAO boardOracleDao;
+	
+	public BoardServiceImpl( ) {
+		System.out.println("BoardServiceImpl 생성자 호출");
+	}
+
+	@Override
+	public void select() {
+		System.out.println("BoardServiceImpl select call");
+		
+		boardMyBatisDAOImpl.select();
+		
+		boardOracleDao.select();
+	}
+
+}

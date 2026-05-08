@@ -1,0 +1,10 @@
+package sample08;
+
+public class BookServiceImpl implements BookService {
+
+	@Override
+	public void save(BookDTO bookDTO, BookDTO bookDTO2) {
+
+	}
+
+}

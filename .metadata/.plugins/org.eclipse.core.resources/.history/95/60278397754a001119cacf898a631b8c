@@ -1,0 +1,14 @@
+package sample08;
+
+public class BookDAOImpl implements BookDAO {
+	
+	public BookDAOImpl() {
+		System.out.println("BookDAOImpl 생성자");
+	}
+
+	@Override
+	public void save(EmailSender emilSender, MessageSender messageSender, BookDTO bookDTO, BookDTO bookDTO2) {
+		
+	}
+
+}

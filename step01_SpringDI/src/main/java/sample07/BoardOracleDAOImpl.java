@@ -1,5 +1,8 @@
 package sample07;
 
+import org.springframework.stereotype.Repository;
+
+@Repository //생성 <bean class="BoardOracleDAOImpl" id="boardOracleDaoImpl"
 public class BoardOracleDAOImpl implements BoardDAO {
 	
 	public BoardOracleDAOImpl() {

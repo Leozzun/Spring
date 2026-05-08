@@ -1,0 +1,26 @@
+package sample07;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+@Controller("controller")
+public class BoardController {
+	
+	@Autowired
+	private BoardService boardService;
+	
+	private BoardDTO boardDto;
+	
+	private BoardDTO boardDto2;
+	
+	public BoardController() {
+		System.out.println("BoardController 생성자 호출");
+	}
+	
+	public void test() {
+		System.out.println("BoardController test call");
+		
+		boardService.select();
+	}
+
+}

@@ -1,0 +1,23 @@
+package sample07;
+
+import org.springframework.stereotype.Component;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+
+@Setter
+@Getter
+@NoArgsConstructor
+@AllArgsConstructor
+@ToString
+@Component //생
+public class BoardDTO {
+	private int no;
+	private String subject;
+	private String content;
+	
+
+}

@@ -1,0 +1,20 @@
+package sample08;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class BookController {
+	
+	@Autowired
+	private BookDTO book2;
+	
+	@Autowired
+	private BookService bookService;
+	
+	public BookController() {
+		System.out.println("BookController 생성자");
+	}
+	
+	public void invoker() {
+		
+	}
+}

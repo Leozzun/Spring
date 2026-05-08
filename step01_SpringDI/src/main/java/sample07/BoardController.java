@@ -1,15 +1,30 @@
 package sample07;
 
+import javax.annotation.PostConstruct;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+@Controller("controller")
 public class BoardController {
 	
+	@Autowired
 	private BoardService boardService;
 	
+	@Autowired
 	private BoardDTO boardDto;
 	
-	private BoardDTO boarDto2;
+	@Autowired
+	private BoardDTO boardDto2;
 	
 	public BoardController() {
 		System.out.println("BoardController 생성자 호출");
+	}
+	
+	@PostConstruct
+	public void init() {
+		System.out.println("boardDto = " + boardDto);
+		System.out.println("boardDto2 = " + boardDto2);
 	}
 	
 	public void test() {

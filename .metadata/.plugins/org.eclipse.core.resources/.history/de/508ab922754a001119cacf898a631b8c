@@ -1,0 +1,14 @@
+package sample08;
+
+public class BookServiceImpl implements BookService {
+	
+	public BookServiceImpl() {
+		System.out.println("BookService 생성자");
+	}
+
+	@Override
+	public void save(BookDTO bookDTO, BookDTO bookDTO2) {
+
+	}
+
+}
