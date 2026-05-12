@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
     <typeInfo handle="=step01_SpringDI/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;sample05{OrderMessage.java[OrderMessage" modifiers="513" timestamp="1778122995000"/>
+    <typeInfo handle="=step01_SpringDI/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;sample07{BoardDAO.java[BoardDAO" modifiers="513" timestamp="1778140972000"/>
+    <typeInfo handle="=step01_SpringDI/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;sample07{BoardService.java[BoardService" modifiers="513" timestamp="1778141230000"/>
+    <typeInfo handle="=step01_SpringDI/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;sample08{BookService.java[BookService" modifiers="513" timestamp="1778200654000"/>
+    <typeInfo handle="=step01_SpringDI/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;sample08{BookDAO.java[BookDAO" modifiers="513" timestamp="1778200675000"/>
+    <typeInfo handle="=step05_AOP_HW/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;kosta.test.service{Player.java[Player" modifiers="513" timestamp="1778321865000"/>
 </typeInfoHistroy>

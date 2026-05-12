@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="/Users/hongjunhwa/Desktop/Spring/springFramework/workSpace/test"/>
+			<item value="/Users/hongjunhwa/Desktop/Spring/springFramework/workSpace/step05_AOP_Annotation"/>
+			<item value="/Users/hongjunhwa/Desktop/Spring/springFramework/workSpace/step01_SpringDI"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -29,13 +40,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="step01_SpringDI.step01_SpringDI"/>
 		</list>
 		<list key="groupId">
-			<item value="step01_SpringDI"/>
 		</list>
 		<list key="artifactId">
-			<item value="step01_SpringDI"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
